@@ -1,0 +1,19 @@
+{
+  "name": "g29-usb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "node-hid": "^0.5.4",
+    "socket.io": "^2.0.3",
+    "usb": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
